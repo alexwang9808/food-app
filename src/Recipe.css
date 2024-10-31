@@ -1,0 +1,53 @@
+/* Recipe.css */
+.ingredient-input {
+  width: 300px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #45a049;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recipe-result {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recipe-details {
+  margin-top: 20px;
+}
+
+.ingredients-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructions {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
